@@ -13,7 +13,12 @@ public class App {
      public static void main(String [] args){
          
          Student st = new Student();
-         st.setFirstName("Kaveesha");
-         System.out.println(st.getFirstName());
+         System.out.println(st.getLastName().trim());
+
+         Student st = new Student();
+         System.out.println(st.getLastName().trim());
+
+
+
      }
 }
